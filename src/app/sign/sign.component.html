@@ -1,0 +1,26 @@
+<div class="bk">
+  <div class="for">`
+    <form  action="/action_page.php">
+      <label style="color: rgba(20, 20, 16, 0.979);" class="fo" >Full Name:</label><br>
+      <input type="text" id="fname" name="fname" [(ngModel)]="formdata.fname"required><br>
+
+      <label  style="color: rgb(24, 24, 12);" class="fo" >Email:</label><br>
+      <input type="email" id="email" name="email" [(ngModel)]="formdata.email" required><br>
+
+      <label  style="color: rgb(17, 17, 10);" class="fo" >Contact Number</label><br>
+      <input type="number" id="Contact" name="contact" [(ngModel)]="formdata.contact" required><br>
+
+      <label  style="color: rgb(12, 12, 9);" class="fo" >Address</label><br>
+      <input type="text" id="Address" name="address" [(ngModel)]="formdata.address"required><br>
+
+      <label  style="color: rgb(15, 15, 8);" class="fo" >Password:</label><br>
+      <input type="password" id="Password" name="password" [(ngModel)]="formdata.password"required><br><br>
+
+      <label  style="color: rgb(20, 20, 7);" class="fo" >Confirm Password:</label><br>
+      <input type="password" id="confirm Password" name="word" [(ngModel)]="formdata.word" required><br><br>
+      <button  class="fo" (click)="signdata()" >Login</button>
+
+    </form>
+
+  </div>
+</div>
